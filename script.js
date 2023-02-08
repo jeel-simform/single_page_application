@@ -1,7 +1,7 @@
 window.onload = function()
 {
     const path = window.location.pathname.split("/");
-    console.log(path[1]);
+    console.log(path[1])
 
     switch(path[1])
     {
