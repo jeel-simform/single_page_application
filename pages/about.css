@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .f {
+    margin-top: 143px;
+}
+
+.about h2 {
+    color: #007c7c;
+    font-size: 43px;
+}
+
+.about p {
+    font-size: 23px;
+    margin-top: 6px;
+    color: gray;
+
+}
+
+.about button {
+    background-color: #007c7c;
+    color: white;
+    border: 1px solid #007c7c;
+    border-radius: 6px;
+}
