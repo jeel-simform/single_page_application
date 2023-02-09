@@ -77,8 +77,7 @@ window.onload = function()
 let slides = document.getElementsByClassName("slide");
 let navlinks = document.getElementsByClassName("dot");
 let currentSlide = 0;
-// const temp=document.getElementById("button-next"); ;
-// console.log("temp"+slides[0]);
+
 
 document.getElementById("button-next").addEventListener("click", () => {
   changeSlide(currentSlide + 1);
