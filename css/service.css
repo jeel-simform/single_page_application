@@ -1,0 +1,105 @@
+.vaccine {
+    margin-top: 100px;
+}
+
+.vaccine h1 {
+    color: #017e7e;
+    text-align: center;
+    font-size: 32px;
+}
+
+.vaccine .card {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.vaccine .card button {
+    width: 84px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #017e7e;
+    font-weight: 800;
+    color: #017e7e;
+    background-color: white;
+    position: relative;
+}
+
+.vaccine .card .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    box-shadow: 0 30px 16px 0 rgba(0, 0, 0, 0.16);
+    border: 1px solid #cbcbcb;
+    height: 376px;
+}
+
+.vaccine .card .first .f_text {
+    color: white;
+    height: 115px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #017e7e;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.vaccine .card .first .p {
+    text-align: center;
+    color: #023939;
+    margin-top: 10px;
+}
+
+.india_vaccine {
+    margin-top: 23px;
+}
+
+.main-service .API {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-service .API h1 {
+    font-size: 37px;
+    font-weight: 800;
+}
+
+.main-service .API h3 {
+    margin-top: 17px;
+    font-size: 26px;
+}
+
+.main-service .API img {
+    margin-top: 30px;
+}
+
+.main-service .API .discover {
+    margin-top: 22px;
+}
+
+.main-service .API .btn {
+    background-color: #007c7c;
+    color: white;
+    border-radius: 23px;
+    width: 341px;
+    height: 50px;
+    border: 1px solid #007c7c;
+    margin-bottom: 65px;
+    margin-top: 35px;
+}
+
+.main-service .API .btn:hover {
+    background-color: white;
+    color: #007c7c;
+    transition: background-color 0.7s;
+    font-weight: bold;
+    cursor: pointer;
+}
