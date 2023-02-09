@@ -1,0 +1,57 @@
+.home{
+    background-image: url('./assets/images/bacground.png');
+    background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 45px;
+    justify-content: space-between;
+  }
+  .home .first h1{
+    font-size: 34px;
+  }
+  
+  .home .first button{
+    font-size: 34px;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 55px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fd5428;
+    background-color: transparent;
+    border-radius: 12px;
+    width: 532px;
+    height: 79px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 3px solid #fd5428;
+  }
+  .home .first img{
+    margin-right: 10px;
+  }
+  .home .first h2{
+    margin-top: 70px;
+  
+  }
+  .home .first h3{
+    margin-top: 20px;
+  }
+  .home .second img{
+    height: 441px;
+  }
+  
+  .home .third button{
+    background-color: #017e7e;
+    color: white;
+    border: 1px solid #017e7e;
+    width: 123px;
+    height: 66px;
+    right: 25%;
+    border-radius: 100px 0 0 100px;
+    margin-left: 23px;
+    margin-top: 23px;
+  }

@@ -1,119 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./pages/about.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    
-    <header>
-        <div class="first">
-            <div class="image">
-                <img src="../assets/images/india.png" alt="">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Single Page Application</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/about.css">
+        <link rel="stylesheet" href="./css/image.css">
+        <link rel="stylesheet" href="./css/service.css">
+        <link rel="stylesheet" href="./css/nav-footer.css">
+    </head>
+    <body>
+        <header id="header">
+            <div class="first">
+                <div class="image">
+                    <img src="../assets/images/india.png" alt="">
+                </div>
+                <div class="text">
+                    <p>Ministry of Health and</p>
+                    <p>Family Welfare</p>
+                </div>
             </div>
-            <div class="text">
-                <p>Ministry of Health and</p>
-                <p>Family Welfare</p>
+            <div class="second">
+                <div class="button">
+                    <button>A+</button>
+                    <button>A</button>
+                    <button>A-</button>
+                </div>
+                <div class="text">
+                    English
+                </div>
             </div>
-        </div>
-        <div class="second" >
-            <div class="button">
-                <button>A+</button>
-                <button>A</button>
-                <button>A-</button>
+        </header>
+
+        <nav>
+            <div class="first">
+                <img src="./assets/images/cowin.png" alt="">
             </div>
-            <div class="text">
-                English
-            </div>
-        </div>
-    </header>
-
-    <nav>
-        <div class="first">
-            <img src="./assets/images/cowin.png" alt="">
-        </div>
-        <ul class="menu second">
-            <li class="menu__item" value="home">Home</li>
-            <li class="menu__item" value="about">About</li>
-            <li class="menu__item" value="pricing">Pricing</li>
-            <button>Register / Login</button>
-        </ul>
-    </nav>
-    <main>
-
-        <section id="container"></section>
-
-    </main>
-
-    <section class="footer">
-        <div class="first">
-            <h2>VACCINATION SERVICES</h2>
-            <!-- <hr> -->
-            <ul>
-                <li>Register Members</li>
-                <li>Search Vaccination Centers</li>
-                <li>Book Vaccination Slots</li>
-                <li>Manage Appointment</li>
-                <li>Download Certificate</li>
+            <ul class="menu second">
+                <li class="menu__item" value="home">Home</li>
+                <li class="menu__item" value="about" onclick="about()">About</li>
+                <li class="menu__item" value="image" onclick="image()">Images</li>
+                <li class="menu__item" value="service" onclick="service()">Service</li>
+                <button>Register / Login</button>
             </ul>
-        </div>
-        <div class="first">
-            <h2>PLATFORMS</h2>
-            <!-- <hr> -->
-            <ul>
-                <li>COWIN-International</li>
-                <li>Vaccinators</li>
-                <li>Department Login</li>
-                <li>Verify Certificate</li>
-                <li>Vaccination Statistics</li>
-            </ul>
-        </div>
-        <div class="first">
-            <h2>RESOURCES</h2>
-            <!-- <hr> -->
-            <ul>
-                <li>How To Get Vaccinated</li>
-                <li>Dos And Dont's</li>
-                <li>Overview</li>
-                <li>API Guidelines</li>
-                <li>Grievance Guidelines</li>
-            </ul>
-        </div>
-        <div class="first">
-            <h2>SUPPORT </h2>
-            <!-- <hr> -->
-            <ul>
-                <li></li>
-                <li>Frequently Asked Quesions</li>
-                <li>Certificate Corrections</li>
-            </ul>
-        </div>
-        <div class="first">
-            <h2>CONTACT US</h2>
-            <!-- <hr> -->
-            <ul>
-                <li>HelpLine: +91-11-23978046 (Toll Free - 1075)</li>
-                <li>Technical Helpline: 0120-4783222</li>
-                
-            </ul>
-        </div>
-    </section>
+        </nav>
+        <main>
+            <section class="main-home">
+                <section class="home">
+                    <div class="first">
+                        <h1>Historic & Unparalleled Achievement!</h1>
+                        <br>
+                        <h1>India's Glorious Journey of</h1>
+                        <button>
+                            <img src="./assets/images/verified.svg" alt="">
+                            200 CRORE VACCINATIONS
+                        </button>
+                        <h2>"India is set to defeat Covid-19. Every Indian is
+                            making it possible."</h2>
+                        <h3>- PM Narendra Modi</h3>
+                    </div>
+                    <div class="second">
+                        <img src="./assets/images/independance.svg" alt="">
+                    </div>
+                    <div class="third">
+                        <button>Support For <br>COVID-19</button>
+                    </div>
+                </section>
+                <section class="slide">
+                    <img src="./assets/images/slider.png" alt="">
+                </section>
 
-    <footer>
-        <h5>Copyright © 2021 Co-WIN. All Rights Reserved</h5>
-        <div class="img">
-            <img src="./assets/images/national_healthjpg" alt="" class="img1">
-            <img src="./assets/images/unicef.svg" alt="" class="img2">
-        </div>
-       
-            <span>Terms of Service | Privacy Policy</span>
-      
-    </footer>
 
-</body>
+                <section class="india_vaccine">
+                    <img src="./assets/images/india_vaccine.png" alt="">
+                </section>
+            </section>
+
+            <section class="main-about">
+                <h1>ABOUT VACCINE</h1>
+                <section class="about flex">
+                    <div class="f">
+                        <h2>Free COVID Precaution Dose</h2>
+                        <p>Now Precaution dose for 18-59 age group free at
+                            Government <br>
+                            Vaccination Centre.</p>
+                        <button>Book Your Slot</button>
+                    </div>
+                    <div class="s">
+                        <img src="../assets/images/pre_dose.svg" alt="">
+                    </div>
+
+                </section>
+
+                <section class="about1 flex">
+
+                    <div class="s">
+                        <img src="../assets/images/report.svg" alt="">
+                    </div>
+                    <div class="f">
+                        <h2>Report Side Effect</h2>
+                        <p>If you have experienced any side effect after
+                            COVID-19 vaccination, it can be <br>
+                            reported on Co-WIN using your registered mobile
+                            number.</p>
+                        <button>Report Now</button>
+                    </div>
+                </section>
+                <section class="about2 flex ">
+
+                    <div class="f">
+                        <h2>
+                            Vaccination Date Correction</h2>
+                        <p>If the date printed on your vaccination certificate
+                            differs from the actual date of <br> vaccine
+                            administration, you may raise a request for
+                            correction of the same by <br>submitting a valid
+                            proof of correct vaccination date.
+                            reported on Co-WIN using your registered mobile
+                            number.</p>
+                        <button>Update Date </button>
+                    </div>
+                    <div class="s">
+                        <img src="../assets/images/Date_Correction.svg" alt="">
+                    </div>
+
+                </section>
+
+            </section>
+
+            <section class="main-image">
+                <div class="slider-container">
+
+                    <div class="slides fade">
+                        <div class="slider-image"><img
+                                src="./assets/images/img1.png"
+                                alt="background_1"></div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="slider-image"><img
+                                src="./assets/images/img2.jpeg"
+                                alt="background_2"></div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="slider-image"><img
+                                src="./assets/images/img3.jpeg"
+                                alt="background_3"></div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="slider-image"><img
+                                src="./assets/images/img4jpeg"
+                                alt="background_4"></div>
+                    </div>
+
+                    <a class="prev" onclick="plusIndex(-1)">❮</a>
+                    <a class="next" onclick="plusIndex(+1)">❯</a>
+
+                    <div class="slider-bullets" id="slider-bullets">
+                        <span class="dots" onclick="currentSlide(1)"></span>
+                        <span class="dots" onclick="currentSlide(2)"></span>
+                        <span class="dots" onclick="currentSlide(3)"></span>
+                        <span class="dots" onclick="currentSlide(4)"></span>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="main-service">
+                <section class="vaccine">
+                    <h1>Get Vaccinated in 3 Easy Steps</h1>
+                    <div class="card">
+                        <div class="first">
+                            <button>Step 1</button>
+                            <div class="img"><img
+                                    src="./assets/images/first.svg" alt=""></div>
+                            <div class="f_text"> <p>Book an Appointment on <br>
+                                    Co-win or Walk or Walk into any Vaccination
+                                    Center</p></div>
+                            <p class="p">how to book Your <br> Appointment on
+                                Co-WIN?</p>
+                        </div>
+
+                        <div class="first">
+                            <button>Step 2</button>
+                            <div class="img"><img
+                                    src="./assets/images/second.svg" alt=""></div>
+                            <div class="f_text"> <p>Get Your Vaccination Safely
+                                    at the Time of Your<br>Appointment</p></div>
+                            <p class="p">Dos And Dont's For Getting <br>
+                                Vaccinated</p>
+                        </div>
+
+                        <div class="first">
+                            <button>Step 3</button>
+                            <div class="img"><img
+                                    src="./assets/images/third.svg" alt=""></div>
+                            <div class="f_text"> <p>Download Your Vaccination
+                                    Certificate from co-<br>WIN and wait for
+                                    Dose #2 </p></div>
+                            <p class="p">Download Your Vaccine <br>Certificate
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="API">
+                    <h1>Co-WIN API Integration</h1>
+                    <h3>How it works?</h3>
+                    <img src="./assets/images/api.png" alt="">
+                    <h1 class="discover">Discover Our Open API's</h1>
+                    <button class="btn">Checkout on API Setu</button>
+                </section>
+            </section>
+
+            <section class="footer">
+                <div class="first">
+                    <h2>VACCINATION SERVICES</h2>
+                    <ul>
+                        <li>Register Members</li>
+                        <li>Search Vaccination Centers</li>
+                        <li>Book Vaccination Slots</li>
+                        <li>Manage Appointment</li>
+                        <li>Download Certificate</li>
+                    </ul>
+                </div>
+                <div class="first">
+                    <h2>PLATFORMS</h2>
+                    <ul>
+                        <li>COWIN-International</li>
+                        <li>Vaccinators</li>
+                        <li>Department Login</li>
+                        <li>Verify Certificate</li>
+                        <li>Vaccination Statistics</li>
+                    </ul>
+                </div>
+                <div class="first">
+                    <h2>RESOURCES</h2>
+                    <ul>
+                        <li>How To Get Vaccinated</li>
+                        <li>Dos And Dont's</li>
+                        <li>Overview</li>
+                        <li>API Guidelines</li>
+                        <li>Grievance Guidelines</li>
+                    </ul>
+                </div>
+                <div class="first">
+                    <h2>SUPPORT </h2>
+                    <ul>
+                        <li></li>
+                        <li>Frequently Asked Quesions</li>
+                        <li>Certificate Corrections</li>
+                    </ul>
+                </div>
+                <div class="first">
+                    <ul>
+                        <li>HelpLine: +91-11-23978046 (Toll Free - 1075)</li>
+                        <li>Technical Helpline: 0120-4783222</li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <footer>
+                    <h5>Copyright © 2021 Co-WIN. All Rights Reserved</h5>
+                    <div class="img">
+                        <img src="./assets/images/national_healthjpg" alt=""
+                            class="img1">
+                        <img src="./assets/images/unicef.svg" alt="" class="img2">
+                    </div>
+
+                    <span>Terms of Service | Privacy Policy</span>
+            </footer>
+        </main>
+        <script src="./js/script.js"></script>
+        <script src="./js/scroll.js"></script>
+    </body>
 </html>
