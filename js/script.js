@@ -4,6 +4,7 @@ const showImage=(n)=> {
     let slide = document.getElementsByClassName('slides'), 
         dots = document.getElementsByClassName('dots'),
         i;
+
         slideIndex=n>slide.length?1: n<1?slide.length:n;
     for (i = 0; i < slide.length; i++) { 
         slide[i].style.display = 'none';
